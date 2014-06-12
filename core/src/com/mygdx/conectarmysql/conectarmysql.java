@@ -27,7 +27,7 @@ HttpRequest httpsolicitud;
 			
 			
 			url = "http://www.compartiendoconocimiento.com/pruebas/index.php?";
-			solicitud_variables = "&nombre=asderss&puntaje=145";			
+			solicitud_variables = "&nombre=crearmijuego&puntaje=666";			
 			httpsolicitud = new HttpRequest(httpMethod);
 			httpsolicitud.setUrl(url);
 			httpsolicitud.setContent(solicitud_variables);
