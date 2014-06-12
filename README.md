@@ -8,7 +8,7 @@ Esta es la tabla usada en base de datos.
 Tabla de la base de datos
 
 CREATE TABLE score (
- id INT UNSIGNED AUTO_INCREMENT,
+ id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
  nombre VARCHAR(20) not null,
  puntaje INT(4) not null
 );
