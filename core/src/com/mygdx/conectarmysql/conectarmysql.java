@@ -26,13 +26,12 @@ HttpRequest httpsolicitud;
 			font = new BitmapFont();
 			
 			
-			url = "http://www.compartiendoconocimiento.com/pruebas/index.php?";
-			solicitud_variables = "&nombre=crearmijuego&puntaje=666";			
+			url = "http://www.tuweb.com/index.php?";
+			solicitud_variables = "&nombre=suscribete&puntaje=222";			
 			httpsolicitud = new HttpRequest(httpMethod);
 			httpsolicitud.setUrl(url);
 			httpsolicitud.setContent(solicitud_variables);
 			Gdx.net.sendHttpRequest(httpsolicitud, conectarmysql.this);		
-
 			
 	}
 
@@ -54,6 +53,7 @@ HttpRequest httpsolicitud;
 			@Override
 			public void run () {
 				mensaje= "HTTP Procesado con exito :D ";
+				
 			}
 		});		
 		
